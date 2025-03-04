@@ -10,7 +10,7 @@ export const TodoStats: React.FC<TodoStatsProps> = ({ todos }) => {
     const completed = todos.filter(todo => todo.completed).length
 
     return (
-        <div className="text-gray-600">
+        <div className="text-white">
             {completed} / {total} concluídas
         </div>
     )

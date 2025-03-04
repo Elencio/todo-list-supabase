@@ -31,7 +31,7 @@ export const TodoItem: React.FC<TodoItemProps> = ({
                 )}
             </button>
             <span
-                className={todo.completed ? 'line-through' : ''}
+                className={todo.completed ? 'line-through text-gray-900' : 'text-gray-900'}
             >
                 {todo.title}
             </span>
